@@ -1,4 +1,21 @@
 html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
     width: 100vw;
     height: 100vh;
+    font-family: sans-serif;
+    overflow-x: hidden;
+
+}
+a {
+    color: #333;
+}
+ @media(max-width: 600px) {
+    body {
+        width: auto;
+        padding: 15px;
+    }
+    
 }
